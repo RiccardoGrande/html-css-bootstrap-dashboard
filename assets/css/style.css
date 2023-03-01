@@ -28,13 +28,14 @@
 .top{
 
     height: 100vh;
-
+    margin-top: 60px;
 }
 
 .top > .main_page{
 
-    width: calc( 100% - 10%);
+    width: 90%;
     background-color: #1b72e8;
+    margin-left: 10%;
 
 }
 
@@ -42,5 +43,7 @@
 
     width: 10%;
     background-color: #f26551;
+    position: fixed;
+    height: 100%;
 
 }
