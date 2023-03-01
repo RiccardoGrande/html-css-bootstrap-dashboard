@@ -17,21 +17,32 @@
 
             <div class="debug container-fluid d-flex p-2">
 
-                <img class="p-2" src="./assets/img/logo.svg" alt="logo">
+                <img class="p-2 d-sm-none d-lg-inline" src="./assets/img/logo.svg" alt="logo">
+                <img class="mobile_logo d-sm-inline d-lg-none" src="./assets/img/mobile-logo.png" alt="mobile_logo">
 
                 <div width="90" class="input-group">
                     <span class="input-group-text" id="basic-addon1">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </span>
-                    <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search" aria-describedby="basic-addon1">
                 </div>
 
                 <div width="20" class="d-flex p-1">
 
-                    <i class="fa-solid fa-list-ul p-2"></i>
-                    <i class="fa-solid fa-circle-question p-2"></i>
-                    <i class="fa-solid fa-ellipsis-vertical p-2"></i>
-                    <i class="fa-solid fa-bell p-2"></i>
+                    <i class="fa-solid fa-list-ul text-secondary p-2 d-sm-none d-lg-inline"></i>
+                    <i class="fa-solid fa-circle-question text-secondary p-2 d-sm-none d-lg-inline"></i>
+                    <i class="fa-solid fa-ellipsis-vertical text-secondary p-2 d-sm-none d-lg-inline"></i>
+
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle p-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><button class="dropdown-item" type="button">Profilo</button></li>
+                          <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                          <li><button class="dropdown-item" type="button">Logout</button></li>
+                        </ul>
+                      </div>
 
                 </div>
 
@@ -47,11 +58,41 @@
 
             <div class="sidebar">
                 
-               <div class="sidebar_top"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ad nobis sint perspiciatis quas asperiores quod dolores quia ex voluptatibus? Quos dolorem voluptatem illum voluptates provident. Officiis magnam dolor est?</div>
-               <div class="sidebar_bottom"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ad nobis sint perspiciatis quas asperiores quod dolores quia ex voluptatibus? Quos dolorem voluptatem illum voluptates provident. Officiis magnam dolor est?</div>
+               <div class="sidebar_top p-3 text-white"> 
+
+                    <div>
+                        <i class="fa-solid fa-house p-1"></i>
+                        <span class="d-sm-none d-lg-inline">Home</span> 
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-chart-simple p-1"></i>
+                        <span class="d-sm-none d-lg-inline">Stats</span> 
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-signal p-1"></i>
+                        <span class="d-sm-none d-lg-inline">Signals</span> 
+                    </div>
+               </div>
+               <div class="sidebar_bottom"> 
+
+                    <div class="text-white p-3">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="d-sm-none d-lg-inline">Admin</span> 
+                    </div>
+               </div>
             
             </div>
-            <div class="main_page">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatum veniam aliquam fuga earum fugiat, quae totam vitae, accusantium voluptate at alias soluta tenetur eius, dignissimos repellendus aperiam minima cum.</div>
+            <div class="main_page">
+
+                <div class="col-12 d-flex">
+                    
+                    <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium sit veritatis, reiciendis sunt veniam nisi natus, provident omnis incidunt at sapiente aliquid porro? Cum voluptate aperiam nemo temporibus perspiciatis.</div>
+                    <div class="col-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio sunt architecto nesciunt officia culpa dolore ratione nisi mollitia! Aspernatur exercitationem sequi natus veniam eligendi voluptates nisi asperiores quam, repellendus maxime!</div>
+                    <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed maiores soluta quis iste nesciunt sunt aliquid tenetur sapiente iusto, ipsa modi, pariatur ipsam dolorem quam quaerat minima facilis nostrum possimus!</div>
+                </div>
+            </div>
         </section>
 
 

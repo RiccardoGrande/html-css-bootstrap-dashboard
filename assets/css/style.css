@@ -11,6 +11,7 @@
     --bs-lightblue: #1b72e8;
     --bs-dark: #051e34;
     --bs-orange: #f26551;
+    --bs-lightgray: #e5e5e5;
 
 }
 
@@ -42,7 +43,7 @@
 .top > .sidebar{
 
     width: 10%;
-    background-color: #f26551;
+    background-color: var(--bs-dark);
     position: fixed;
     height: 91%;
 
@@ -58,4 +59,22 @@
 
     height: 60px;
     overflow: hidden;
+}
+
+.mobile_logo{
+
+    height: 42px;
+
+}
+
+.fa-bell{
+
+    color: var(--bs-orange);
+
+}
+
+.search{
+
+    background-color: var(--bs-lightgray);
+
 }
