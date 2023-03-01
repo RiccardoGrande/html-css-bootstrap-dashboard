@@ -13,3 +13,34 @@
     --bs-orange: #f26551;
 
 }
+
+/* debug set */
+
+.debug{
+
+    border: 1px solid black;
+
+}
+
+
+/* utilities */
+
+.top{
+
+    height: 100vh;
+
+}
+
+.top > .main_page{
+
+    width: calc( 100% - 10%);
+    background-color: #1b72e8;
+
+}
+
+.top > .sidebar{
+
+    width: 10%;
+    background-color: #f26551;
+
+}
