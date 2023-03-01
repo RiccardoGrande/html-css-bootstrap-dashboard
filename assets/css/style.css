@@ -12,7 +12,7 @@
     --bs-dark: #051e34;
     --bs-orange: #f26551;
     --bs-lightgray: #e5e5e5;
-
+    --bs-darkerblue: #165bba;
 }
 
 /* debug set */
@@ -35,7 +35,7 @@
 .top > .main_page{
 
     width: 90%;
-    background-color: #1b72e8;
+    background-color: #93b5e5;
     margin-left: 10%;
 
 }
@@ -76,5 +76,24 @@
 .search{
 
     background-color: var(--bs-lightgray);
+
+}
+
+.banner_student{
+
+    background-color: var(--bs-lightblue);
+
+}
+
+.button_banner_student{
+
+    background-color: var(--bs-darkerblue);
+    font-size: 10px;
+    border-radius: 25px;
+}
+
+.plus_apps{
+
+    background-color: var(--bs-darkerblue);
 
 }
