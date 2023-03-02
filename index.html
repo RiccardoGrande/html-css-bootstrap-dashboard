@@ -126,11 +126,12 @@
                     </div>
                     <div class="col-3">
 
-                        <div class="col-12 pt-3 ps-2 text-white text-center">
+                        <div class="col-12 pt-3 ps-2 text-white ">
 
                             <div>
                                 
-                                Nuovo Studente
+                                <span class="text-center">Nuovo Studente</span>
+                                
                                 
 
                                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -145,7 +146,78 @@
                                         </div>
                                     <div class="offcanvas-body">
                                         
-                                        <div></div>
+                                        <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label">Nome</label>
+                                            <input type="email" class="form-control" id="inputEmail4">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>    
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <div class="input-group">
+                                                <div class="input-group-text">@</div>
+                                                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>    
+                                        <div class="col-md-6">
+                                            <label for="inputEmail4" class="form-label">Indirizzo Email</label>
+                                            <div class="input-group">
+                                                <div class="input-group-text">@</div>
+                                                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+                                            <label for="inputCity" class="form-label">Città</label>
+                                            <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="inputState" class="form-label">Stato</label>
+                                            <select id="inputState" class="form-select">
+                                            <option selected>Scegli...</option>
+                                            <option>...</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <label for="inputZip" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="input-group">
+                                                <span class="input-group-text" id="basic-addon1">
+                                                    Scegli File
+                                                </span>
+                                                <input type="text" class="form-control" placeholder="Nessun file selezionato" aria-label="Search" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Seleziona per proseguire
+                                            </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                        </form>
 
                                     </div>
                                 </div>
