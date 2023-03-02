@@ -128,3 +128,12 @@
     font-size: 12px;
 
 }
+
+/* hover section */
+
+
+.sidebar_bg_hover:hover{
+
+    background-color: var(--bs-lightgray);
+
+}
