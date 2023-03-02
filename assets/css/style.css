@@ -109,3 +109,15 @@
     padding-right: 15rem!important;
 
 }
+
+.fa-code{
+
+    background-color: var(--bs-orange);
+
+}
+
+.font_button{
+
+    font-size: 10px;
+
+}
