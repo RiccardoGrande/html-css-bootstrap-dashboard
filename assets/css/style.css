@@ -13,6 +13,7 @@
     --bs-orange: #f26551;
     --bs-lightgray: #e5e5e5;
     --bs-darkerblue: #165bba;
+    --bs-whitegray: #f8f9fa;
 }
 
 /* debug set */
@@ -35,7 +36,7 @@
 .top > .main_page{
 
     width: 90%;
-    background-color: #93b5e5;
+    background-color: var(--bs-whitegray);
     margin-left: 10%;
 
 }
@@ -119,5 +120,11 @@
 .font_button{
 
     font-size: 10px;
+
+}
+
+.text_p{
+
+    font-size: 12px;
 
 }
