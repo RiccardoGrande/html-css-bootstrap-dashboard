@@ -137,3 +137,28 @@
     background-color: var(--bs-lightgray);
 
 }
+
+.plus_hover:hover{
+
+    background-color: #fff;
+
+}
+
+/* media query section */
+
+@media screen and ( min-width: 576px ) and ( max-width: 991.98px){
+
+
+
+    .table_padding{
+
+        padding: 0!important;
+
+    }
+    
+    .col-8, .col-4{
+
+        width: 100%;
+
+    }
+}
